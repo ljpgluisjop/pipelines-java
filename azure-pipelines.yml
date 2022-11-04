@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: NOTE-LUISJ
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
